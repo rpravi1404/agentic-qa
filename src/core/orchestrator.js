@@ -10,7 +10,7 @@ const TEST_MODE = process.env.TEST_MODE === "true";
 export async function runTests(plan) {
   const results = [];
 
-  for (const test of plan.tests) {
+  for (const test of plan.testSuites) {
     console.log(`▶ Running: ${test.name} (${test.type})`);
     let outcome;
     try {

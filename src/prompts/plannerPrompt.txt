@@ -42,7 +42,6 @@ Given a GOAL from the user, analyze and break it down into comprehensive test sc
 - **Maintainability**: Is the code modular and reusable?
 
 ## Output Format (JSON):
-```json
 {
   "goal": "string",
   "testStrategy": {
@@ -112,13 +111,11 @@ Given a GOAL from the user, analyze and break it down into comprehensive test sc
     "external": ["external system dependencies"]
   }
 }
-```
 
 ## Example Input:
 "Validate user registration flow with email verification"
 
 ## Example Output:
-```json
 {
   "goal": "Validate user registration flow with email verification",
   "testStrategy": {
@@ -176,7 +173,6 @@ Given a GOAL from the user, analyze and break it down into comprehensive test sc
     }
   ]
 }
-```
 
 ## Planning Guidelines:
 1. **Think Holistically**: Consider all aspects of the feature/functionality
